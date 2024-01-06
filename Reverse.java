@@ -11,6 +11,7 @@ public class Reverse {
 			System.out.print(c);
 		}
 		System.out.println();
+		// #feedback - Use of "if" is unnecessary here. ((len-1) / 2) will give the middle character in both scenarios.
 		if (len % 2 == 0 ){
 			System.out.println("The middle character is " + input.charAt((len / 2) - 1));
 		} else {
