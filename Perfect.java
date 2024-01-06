@@ -8,7 +8,7 @@ public class Perfect {
 		String perfect = num + " is a perfect number since " + num + " = 1";
 		for(int i = 2; i < num;	 i++) {
 			if(num % i == 0) {
-				perfect = (perfect + " + " + i);
+				perfect = (perfect + " + " + i); // #feedback - paranthesis are not needed here and below.
 				sum = (sum + i);
 			}
 		}
