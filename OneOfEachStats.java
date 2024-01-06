@@ -7,7 +7,7 @@ public class OneOfEachStats {
 		// Initailizes a random numbers generator with the given seed value
         Random generator = new Random(seed);  
        
-        int two_children = 0;
+        int two_children = 0; // #feedback - in Java the convention is to use CamelCase, so in this case - twoChildren.
 		int three_children = 0;
 		int four_or_more = 0;
 		int total_sum = 0;
@@ -20,7 +20,7 @@ public class OneOfEachStats {
 				
 				boolean girl = (random < 0.5);		
 				if (girl) {
-					total_sum++;
+					total_sum++; // #feedback - you can increase the total_sum outside of the "if" since its' always relevant.
 					count_girl++;
 				} else {
 					total_sum++;
